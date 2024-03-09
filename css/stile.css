@@ -1,0 +1,710 @@
+
+.blur {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'NEXT ART';
+    font-weight: 700;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-shadow: grey 1px 0 10px;
+    transition: 1s;
+    
+}
+
+.container {
+    margin: 0 auto;
+    
+    width: 1117px;
+    overflow: hidden;
+}
+
+html {
+    background-color: lightgray;
+    height: vh;
+    overflow: hidden;
+}
+
+.staff__d {
+    display: none;
+}
+
+.bg {
+    background: url("../img/preview_jpeg.jpg") center center no-repeat;
+    width: 100%;
+    height: 500px;
+    opacity: 0;
+    animation: OpacityPath 1s ease-out forwards;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+
+
+.bg__inner {
+    width: 100%;
+    height: 500px;
+    background: url('../img/images-removebg-preview.png') center center no-repeat;
+    
+    z-index: 10;
+    opacity: 100%;
+    
+}
+
+.production__wrapper {
+   
+    background-color: rgb(185, 182, 182);
+}
+
+.causes__wrapper {
+    background-color: rgb(185, 182, 182);
+}
+
+.wrapper {
+    
+    min-height: 100%;
+    width: 100%;
+  
+}
+
+    .HidderFull {
+        width: auto;
+        height: auto;
+    }
+
+        .HidderOpacity {
+           
+        }
+
+        .HidderOpacity {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+
+        @keyframes OpacityPath {
+            0% {opacity: 0%;}
+            100% {opacity: 50%;}
+        }
+
+        .HidderVitbaImg {
+            margin: 10px 0px 0px 10px;
+            position: absolute;
+            width: 300px;
+            height: 110px;
+            background-image: url(../img/images-removebg-preview.png);
+            background-size: cover;
+            z-index: 2;
+        }
+
+        .HidderText {
+            font-size: 3vw;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 400px;
+            left: 450px;
+            z-index: 2;
+            font-family: PoltoraMoment;
+        }
+
+        .HidderFullimg {
+            position: relative;
+            top: -1220px;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("../img/preview_jpeg.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    
+       
+
+                .production {
+                    padding: 0 10px 0 10px;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                   
+                    height: 1200px;
+                    background-color: rgba(255, 255, 255, 0.61);
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 20px;
+                    backdrop-filter: ('10%');
+                    border: 5px solid rgba(0, 0, 0, 0.658);
+                    box-shadow: 10px 5px 20px 0px rgb(156, 152, 152);
+                   
+                }
+
+                    .productionName {
+                        border-radius: 20px;
+                        width: 100%;
+                        height: 200px;
+                        background-color:rgba(218, 174, 103, 0.733);
+                        border-bottom: 5px solid rgba(0, 0, 0, 0.438);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .productionAllBlocks {
+                        width: 100%;
+                        height: 900px;
+                       
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        
+                    }
+
+                    .productionNameText {
+                        display: block;
+                        font-family: 'NEXT ART';
+                        font-weight: 700;
+                        font-size: 100px;
+                        color: rgb(253, 253, 253);
+                        text-shadow: grey 1px 0 10px;
+                        
+                    }
+
+                    .top {
+                        height: 430px;
+                        width: 1517px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: hidden;
+                    }
+
+                    .bottom {
+                        height: 430px;
+                        width: 1517px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: hidden;
+                    }
+
+                            .productionBlocks {
+                                max-width: 400px;
+                                height: 430px;
+                                margin: 10px 52.5px 10px 52.5px;
+                                background-color: rgb(255, 255, 255);
+                                display: flex;
+                                align-items: center;
+                                border: 3px solid rgba(0, 0, 0, 0.658);
+                                
+                                border-radius: 10px;
+                            }
+
+                                .productionPicture {
+                                    width: 380px;
+                                    height: 290px;
+                                    background-color: white;
+                                    margin: 0px 0px 10px 10px;
+                                    display: flex;
+                                    justify-content: center;
+                                }
+
+                                    .productionIMG {
+                                        max-width: 450px;
+                                        max-height: 290px;
+                                    }
+
+                                .productionDescription {
+                                    width: 100%;
+                                    height: 90px;
+                                    background-color: rgba(156, 151, 151, 0.589);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-family: 'Nunito Sans';
+                                    font-weight: 400;
+                                    font-size: 50px;
+                                    color: white;
+                                    overflow: hidden;
+                                   
+                                }
+
+                                .ds {
+                                    padding: 20px 150px 20px 20px;
+                                    font-family: 'Nunito Sans';
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    color: white;
+                                }
+                               
+
+                                .productionHover {
+                                    height: 430px;
+                                    width: 0.0001px;
+                                    background-color: rgb(153, 138, 110);
+                                    overflow: hidden;
+                                    
+                                    
+                                   
+                                }
+
+                                    .productionChlopyaBlock:hover{
+                                        
+                                        transform: translateX(-500px);
+                                        border: 2px solid rgba(0, 0, 0, 0.658); 
+                                        
+                                    }
+
+                                    .productionVafelbatonchikBlock:hover{
+                                       
+                                        transform: translateX(-500px);
+                                        border: 2px solid rgba(0, 0, 0, 0.658);
+                                       
+                                    }
+
+                                .productionHover {
+                                    transition: 1s;
+                                }
+
+                                .productionBlocks {
+                                    transition: 1s;
+                                }
+
+                                    .productionBlocks:hover .productionHover {
+                                      
+                                        width: 500px;
+                                        border: 2px solid rgba(0, 0, 0, 0.658);
+                                        
+                                    }
+
+                                    .productionBlocks:hover {
+                                       
+                                        max-width: 2000px;
+                                        border: 2px solid rgba(0, 0, 0, 0.658);
+                                       
+                                    }
+
+                .Staff {
+                    width: 100%;
+                    height: 1300px;
+                   
+                    margin: 40px 0 40px 0;
+                    border-radius: 20px;
+                    padding: 10px 10px;
+                    
+                   
+                }
+
+                    .staffNameAndImg {
+                        width: 100%;
+                        height: 100%;
+                        padding: 20px;
+                        background-color: rgb(199, 199, 192);
+                        border-radius: 20px;
+                        box-shadow: 0px 0px 20px 0px rgb(156, 152, 152);
+                        border: 5px solid grey;
+                    }
+
+                        .staffName {
+                            width: 100%;
+                            height: 200px;
+                            background-color:rgba(218, 174, 103, 0.733);
+                            border-radius: 20px;
+                            font-family: 'NEXT ART';
+                            font-weight: 700;
+                            font-size: 90px;
+                            color: rgb(253, 253, 253);
+                            text-shadow: grey 1px 0 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 5px solid grey;
+                        }
+
+                        .staffBlockImg {
+                            width: 100%;
+                            height: 900px;
+                            background-color: white;
+                            margin: 100px 0px 0px 0px;
+                            display: flex;
+                            border-radius: 20px;
+                        }
+
+                            .staffImg {
+                                transition: 1s;
+                                border-radius: 25px;
+                            }
+
+                                .staffImgPeopleOne {
+                                    margin: 50px 25px 50px 25px;
+                                    width: 690px;
+                                    height: 790px;
+                                    box-shadow: 0px 0px 20px 0px rgb(156, 152, 152);
+                                    background-color:rgba(218, 174, 103, 0.733);
+                                    font-family: 'Nunito Sans';
+                                    font-weight: 400;
+                                    font-size: 50px;
+                                    display: flex;
+                                    align-items: flex-start;
+                                    justify-content: center;
+                                    color: white;
+                                   
+                                }
+
+                                .gd {
+                                    display: block;
+                                    padding: 20px 20px 20px 20px;
+                                }
+
+                                .staffImgPeopleTwo {
+                                    height: 790px;
+                                    box-shadow: 0px 0px 20px 0px rgb(156, 152, 152);
+                                    margin: 50px 25px 50px 25px;
+                                    width: 690px;
+                                    height: 790px;
+                                    display: flex;
+                                    align-items: flex-end;
+                                    background-image: url("../img/staffImgPeopleTwo.jpg");
+                                    background-size: cover;
+                                    overflow: hidden;
+                                }
+                    
+            .Causes {
+                margin: 40px 0px 40px 0;
+                
+                width: 100%;
+                height: 1250px;
+                border: 5px solid grey;
+                border-radius: 20px;
+                padding: 10px 10px;
+                box-shadow: 0px 0px 20px 0px rgb(156, 152, 152);
+               
+                
+            }
+
+                .causesName {
+                    font-family: 'NEXT ART';
+                    font-weight: 700;
+                    font-size: 60px;
+                    color: rgb(253, 253, 253);
+                    width: 100%;
+                    height: 200px;
+                    background-color:rgba(218, 174, 103, 0.733);
+                    border-top-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                    border: 5px solid grey;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-shadow: grey 1px 0 10px;
+                }
+
+                .causesSnapsAndImg {
+                    width: 100%;
+                    height: 1000px;
+                   
+                    margin: 15px 0px 0px 0px;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 20px;
+                    align-items: center;
+                    
+                }
+
+                    .causesSnaps {
+                        width: 900px;
+                        max-height: 960px;
+                        height: 960px;
+                       
+                        border-radius: 20px;
+                        padding: 20px 0 20px 0;
+                        border: 5px solid grey;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        
+                    }
+
+                    .causesImg {
+                        height: 100%;
+                        width: 648px;
+                        background-color: rgb(0, 240, 12);
+                        padding: 15px;
+                        display: none;
+                    }
+
+                        .causesImgFull {
+                            width: 100%;
+                            height: 100%;
+                            background-image: url(../img/vitba.png);
+                            background-size: cover;
+                            border-radius: 25px;
+                        }
+
+                        .tip {
+                            width: 800px;
+                            height: 100px;
+                            border-radius: 10px;
+                            background-color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            box-shadow: 0px 0px 20px 0px rgb(71, 71, 71);
+                            transition: 0.5s;
+
+                            font-family: 'Nunito Sans';
+                            font-weight: 600;
+                            font-size: 30px;
+                            color: black;
+
+                        }
+
+                        .tip:hover {
+                            transform: scale(1.05);
+                            transition: 0.5s;
+                        }
+
+@media(max-width: 1176px) {
+
+   
+
+    .top {
+        flex-direction: column;
+        max-height: 100%;
+        height: 900px;
+        align-items: center;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .production {
+        width: 600px;
+    }
+    
+    .pr__cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productionNameText {
+        font-size: 60px;
+    }
+
+    .productionHover {
+        position: absolute;
+        z-index: 10;
+       
+    }
+
+    .bgc {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .Staff  {
+        width: 600px;
+    }
+
+    .staffName {
+        font-size: 50px;
+    }
+
+    .staffImgPeopleOne {
+        display: none;
+    }
+
+    .staff__cont {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .staff__d {
+        display: block;
+        width: 100%;
+        height: 100px;
+        transform: translateY(100%);
+        background-color:rgb(218, 174, 103);
+        font-family: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 35px;
+        color: white;
+        transition: 0.5s;
+        
+    }
+
+    .staff__d span {
+        padding: 20px 20px 20px 20px;
+        display: block;
+        width: 100%;
+    }
+    .staffImgPeopleTwo:hover .staff__d {
+        transform: translateY(0%);
+        transition: 0.5s;
+    }
+
+    .causes__cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Causes {
+        width: 600px;
+    }
+
+    .causesName {
+        font-size: 40px;
+    }
+
+    .causesSnap {
+        width: 500px;
+        max-width: 500px;
+    }
+
+    .tip {
+        width: 500px;
+        font-size: 19px;
+    }
+
+    .blur {
+        font-size: 40px;
+    }
+    
+    
+
+}
+
+
+@media (max-width: 888px) {
+    .bg__inner {
+       width: 600px;
+       height: 230px;
+       background-size: cover;
+       margin-top: 20%;
+       
+    }
+}
+
+@media (max-width: 650px) {
+    .productionBlocks {
+        max-width: 100%;
+        width: 100%;
+        border: 0 solid black;
+        
+    }
+
+    .production {
+        width: 400px;
+        padding: 0;
+    }
+
+    .productionNameText {
+        font-size: 40px;
+    }
+
+    .productionChlopyaBlock:hover{
+        
+        border: 0px solid rgba(0, 0, 0, 0.658); 
+        
+    }
+
+    .productionVafelbatonchikBlock:hover{
+        
+        border: 0px solid rgba(0, 0, 0, 0.658);
+       
+    }
+
+    .productionBlocks:hover .productionHover {
+        
+        border: 0px solid rgba(0, 0, 0, 0.658);
+        
+    }
+
+    .productionBlocks:hover {
+       
+        border: 0px solid rgba(0, 0, 0, 0.658);
+       
+    }
+
+
+    .bg__inner {
+        width: 400px;
+        height: 130px;
+        background-size: cover;
+        margin-top: 30%;
+        
+     }
+
+
+     .Staff  {
+        width: 400px;
+    }
+
+    .staffName {
+        font-size: 30px;
+    }
+
+    .staffBlockImg {
+        width: 100%;
+        height: 790px;
+    }
+
+    .staffImgPeopleTwo {
+        width: 100%;
+        margin: 0;
+        background-position: center center;
+
+    }
+
+    .staffNameAndImg {
+        padding: 0 0;
+    }
+
+    .staffName {
+        border-width: 0;
+    }
+
+    .Staff {
+        height: 1150px;
+    }
+
+
+    .Causes {
+        width: 400px;
+        padding: 0;
+    }
+
+    .causesName {
+        border: 0 solid black;
+    }
+
+    .causesSnaps {
+        border-width: 0;
+    }
+
+    .tip {
+        width: 380px;
+        font-size: 15px;
+    }
+}
+
+
+
+.bg__pone {
+    background-image: url("../img/staffImgPeopleOne.jpg");
+}

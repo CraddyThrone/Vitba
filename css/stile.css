@@ -1,0 +1,776 @@
+
+.productionIMGs--mob {
+    display: none;
+}
+
+.wrapper {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+}
+
+    .start {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../img/preview_jpeg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+        .OpacityText {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(240, 248, 255, 0);
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .NameProduction {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                width: 100%;
+                height: 100%;
+                padding: 15% 15% 15% 15%;
+                font-family: PoltoraMoment;
+                font-size: 100px;
+                animation: OpacityPathTwo 1s ease-out forwards;
+            }
+
+        .Opacity {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            animation: OpacityPath 1s ease-out forwards;
+            z-index: 0;
+        }
+
+            @keyframes OpacityPath {
+                0% {opacity: 0%;}
+                100% {opacity: 50%;}
+            }
+
+            @keyframes OpacityPathTwo {
+                0% {opacity: 0%;}
+                100% {opacity: 100%;}
+            }
+
+    .background {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .white {
+            width: 100%;
+          
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+            .productionAll {
+               
+                width: 1180px;
+                width: 1030px;
+               
+                display: flex;
+                overflow: hidden;
+                justify-content: space-between;
+               
+                
+            }
+
+                /* .url {
+                    width: 200px;
+                    height: auto;
+                } */
+
+                .productionText {
+                    position: absolute;
+                    
+                   
+                  
+                   flex-wrap: wrap;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    flex-direction: column;
+                    margin: 75px 10px 0px 635px;
+                   
+                    
+                }
+
+                    .productionName {
+                        display: flex;
+                        
+                        flex-direction: column;
+                        font-family: PoltoraMoment;
+                        font-size: 40px;
+                        
+                    }
+
+                    .productionName2 {
+                        text-align: center;
+                    }
+
+                        .VitbaName {
+                            text-align: center;
+                           
+                            color: rgb(51, 197, 255);
+                        }
+
+                .productionGuarantee {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    font-family: PoltoraMoment;
+                    font-size: 30px;
+                    margin: 100px 0px 0px 0px;
+                }
+
+                    .productionMargin {
+                        
+                        width: 100%;
+                        margin: 0px 0px 35px 0px;
+                        color: rgb(88, 88, 88);
+                    }
+
+                .productionIMgs {
+                   
+                    width: 600px;
+                    
+                    padding: 150px 0px 50px 0px;
+                   
+                }
+
+                    .productionBlock {
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                    }
+                    
+                    .productionImgOne {
+                        height: 300px;
+                        width: 250px;
+                        max-width: 750px;
+                        background-color: rgba(51, 51, 51, 0.548);
+                        position: relative;
+                        z-index: 1;
+                        display: flex;
+                        justify-content: left;
+                        border-radius: 25px;
+                    }
+
+                        .productionImgOne:hover {
+                            z-index: 3;
+                        }
+
+                    .productionImgTwo {
+                        height: 300px;
+                        width: 250px;
+                        max-width: 750px;
+                        background-color: rgba(51, 51, 51, 0.548);
+                        z-index: 2;
+                        position: relative;
+                        top: -125px;
+                        left: 100px;
+                        display: flex;
+                        justify-content: left;
+                        border-radius: 25px;
+                    }
+                        
+                        .productionPictureOne {
+                            height: 260px;
+                            width: 250px;
+                            background-image: url(../img/chlopiya.png);
+                            background-size: cover;
+                            margin: 0px 20px 0px 0px;
+                        }
+
+                        .productionPictureTwo {
+                           
+                            height: 260px;
+                            width: 250px;
+                            background-image: url(../img/rakuski.png);
+                            background-size: cover;
+                            margin: 0px 20px 0px 0px;
+                        }
+
+                        .productionBlockCompoud {
+                            height: 260px;
+                            width: 500px;
+                            padding: 0px 0px 0px 70px;
+                            display: flex;
+                            flex-direction: column;
+                            display: none;
+                            transition: 1s;
+                        }
+
+                        .productionCompoudText {
+                            display: none;
+                            transition: 1s;
+                        }
+
+                        .productionBlock:hover .productionCompoudText {
+                            display: block;
+                        }
+
+                        .productionBlock:hover .productionBlockCompoud {
+                            display: block;
+                        }
+
+                            .Compoud {
+                                width: 100%;
+                                height: 20px;
+                            }
+
+                                .CompoudText {
+                                    width: 100%;
+                                    height: 20px;
+                                    display: flex;
+                                    justify-content: left;
+                                    font-family: shrift1;
+                                }
+
+                                .Description {
+                                    height: auto;
+                                    max-width: 350px;
+                                    font-family: shrift1;
+                                }
+
+                                .Gramms {
+                                    width: 430px;
+                                    height: auto;
+                                    font-family: shrift1;
+                                }
+
+                                .CPFC {
+                                    display: flex;
+                                    width: 100%;
+                                    margin: 10px 0px 0px 0px;
+                                }
+
+                                    .CPFCGramms {
+                                        height: 75px;
+                                        width: 50px;
+                                        margin: 20px 10px 0px 0px;
+                                        font-family: shrift1;
+                                    }
+
+                                    .AllText {
+                                        margin: 10px 0px 0px 0px;
+                                    }
+
+                                    .Calories {
+                                        height: 50px;
+                                        width: 250px;
+                                        margin: 20px 0px 0px 25px;
+                                        font-family: shrift1;
+                                    }
+
+                                    .CompoudAndDescription {
+                                        max-width: 400px;
+                                    }
+
+                        .productionHover {
+                            color: white;
+                            height: 100%;
+                            width: 10px;
+                            transition: 0.3s;
+                        }
+
+                        .productionBlock {
+                            color: white;
+                            transition: 0.3s;
+                        }
+
+                        .productionBlock:hover {
+                            
+                            width: 750px;
+                            height: 350px;
+                            background-color: rgb(51, 51, 51);
+                        }
+
+
+
+        .black {
+            width: 100%;
+            
+            background-color: rgba(64, 69, 82, 1.00);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+            .BlockTeam {
+                width: 1030px;
+                margin: 40px 40px;
+                padding: 75px;
+                background-color: rgb(250, 250, 250);
+                display: flex;
+                box-shadow: 10px 10px 0px 5px rgb(80, 80, 80);
+                border-radius: 5px;
+               
+            }
+
+            .blockTeamImg {
+                width: 440px;
+                height: 500px;
+            }
+
+                .blockTeamPicture {
+                    width: 440px;
+                    height: 500px;
+                    background-image: url(../img/staffImgPeopleTwo.jpg); 
+                    background-size: cover;
+                    border-radius: 5px;
+                }
+
+                .blockText {
+                    width: 440px;
+                    
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+
+                    .blockTitle {
+                        width: 100%;
+                        height: 75px;
+                        font-family: PoltoraMoment;
+                        display: flex;
+                        justify-content: center;
+                        font-size: 25px;
+                        text-indent: 100px;
+                        color: rgb(63, 63, 63);
+                    }
+
+                        .Director {
+                            font-size: 30px;
+                            color: rgb(0, 0, 0);
+                        }
+                    
+                    .blockMane {
+                        width: 100%;
+                        
+                    }
+
+                        .blockManeText {
+                            color: rgb(90, 90, 90);
+                            font-family: PoltoraMoment;
+                            height: 100px;
+                            width: 400px;
+                            margin: 30px 20px 0px 20px;
+                            font-size: 20px;
+                        }
+
+        .whiteTwo {
+            background-color: rgb(240, 239, 239);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0px 50px 0px;
+            height: 100%;
+        }
+
+            .blockCausesAll {
+                width: 1180px;
+               
+                background-color: rgba(255, 255, 255, 0.486);
+                border-radius: 5px;
+                box-shadow: 10px 0px 10px 5px rgba(255, 208, 0, 0.082);
+                display: flex;
+            }
+
+                .blockCausesAndTitle {
+                    width: 680px;
+                   
+                }
+
+                    .CausesTitle {
+                        height: 100px;
+                        width: 680px;
+                        padding: 0px 0px 0px 0px;
+                        font-family: PoltoraMoment;
+                        font-weight: 200;
+                        font-size: 30px;
+                        display: flex;
+                       flex-direction: column;
+                       text-align: center;
+                    }
+
+                        .pochemy {
+                            margin-top: 20px;
+                            color: rgb(88, 88, 88);
+                            margin-bottom: 10px;
+                        }
+
+                            .vitbavopr {
+                               
+                                color: rgb(255, 230, 0);
+                            }
+
+                .blockCauses {
+                   
+                    height: 600px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-bottom: 20px;
+                }
+
+                    .blockCausesSnap {
+                        color: rgb(145, 145, 145);
+                        width: 100%;
+                       
+                        margin: 10px 0px 10px 0px;
+                        padding: 0px 100px 0px 100px;
+                        font-size: 20px;
+                        display: flex;
+                        align-items: center;
+                        font-family: shrift2;
+                    }
+
+                .blockImgCausesAll {
+                    
+                    min-height: 700px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    .blockImgCauses {
+                        background-image: url(../img/vitba.png);
+                        background-size: cover;
+                        height: 700px;
+                        width: 400px;
+                    }
+
+        .blackTwo {
+            height: 300px;
+            width: 100%;
+        }
+
+
+@media(max-width: 1270px)  {    
+
+    .whiteTwo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .blockCausesAll {
+        width: 1050px;
+        padding: 0;
+        margin: 40px;
+       
+    }
+
+    .blockCauses {
+        padding-left: 40px;
+        width: 500px;
+    }
+
+    .blockCausesSnap {
+        padding: 0;
+    }
+
+    
+}    
+
+@media(max-width: 1194px) {
+    .blockCausesAll {
+        width: 500px;
+        
+    }
+
+    .blockCauses {
+        padding: 20px;
+        width: 500px;
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .CausesTitle {
+        width: 100%;
+    }
+
+    .blockImgCauses {
+        display: none;
+    }
+
+    
+}
+
+
+@media(max-width: 1150px) {
+    .productionText {
+        margin-left: 500px;
+    }
+}
+
+@media(max-width: 1137px) {
+    .BlockTeam {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0 0 0;
+        width: 500px;
+    }
+
+    
+
+    .blockTeamImg {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 1070px)  {
+
+    
+    .productionAll {
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
+@media(max-width: 961px) {
+    .productionAll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productionText {
+        padding: 10;
+        width: 500px;
+        position: relative;
+       margin: 0;
+       background-color: rgba(172, 170, 170, 0.342);
+       border-radius: 5px;
+       margin-bottom: 20px;
+       border: 2px solid gray;
+     
+    }
+
+    .productionGuarantee {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .productionIMgs {
+        display: none;
+    }
+
+
+    .productionIMGs--mob {
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 425px;
+      
+    }
+
+    .photo1--cont,
+    .photo2--cont {
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .photo1--cont {
+       position: absolute;
+       z-index: 0;
+    }
+
+    .photo1--cont:hover {
+        z-index: 20;
+    }
+
+    .photo2--cont {
+        margin-top: 150px;
+    }
+    
+
+    .production__photo {
+      
+        
+        width: 250px;
+        height: 300px;
+        background-color: rgba(51, 51, 51, 0.548);
+        border-radius: 25px;
+        transition: 0.3s;
+       
+    }
+
+    
+    .production__photo1:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+        width: 500px;
+        margin-right: -250px;
+        background-color: rgb(51, 51, 51);
+    }
+
+    .production__photo2:hover {
+        
+        transition: 0.3s;
+        transform: scale(1.05);
+        width: 500px;
+        margin-left: -250px;
+        background-color: rgb(51, 51, 51);
+       
+    }
+
+    .production__photo1:hover .production__text1 {
+        display: block;
+        
+    }
+    .production__photo2:hover .production__text2 {
+        display: block;
+        
+    }
+
+
+    .production__photo-inner {
+        height: 100%;
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .production__photo-placeholger1 {
+        height: 100%;
+        width: 210px;
+        background: url(../img/chlopiya.png) center center no-repeat;
+        background-size: cover;
+    }
+
+    .production__photo-placeholger2 {
+        height: 100%;
+        width: 210px;
+        background: url(../img/rakuski.png) center center no-repeat;
+        background-size: cover;
+    }
+    
+    .production__text1 {
+        width: 200px;
+        color: white;
+        font-family: shrift1;
+        font-size: 15px;
+        display: none;
+    }
+
+.production__text2 {
+        width: 200px;
+        color: white;
+        font-family: shrift1;
+        font-size: 15px;
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 653px) {
+
+    .productionIMGs--mob {
+        width: 250px;
+    }
+    .photo1--cont,
+    .photo2--cont {
+        height: 200px;
+    }
+    .production__photo {
+        width: 150px;
+        height: 200px;
+    }
+    
+    .production__photo-placeholger1,
+    .production__photo-placeholger2 {
+        width: 110px;
+    }
+
+    .production__photo1:hover {
+        width: 300px; 
+    }
+
+    .production__photo2:hover {
+        width: 300px; 
+    }
+
+    .production__text1 {
+        width: 100px;
+        
+        font-size: 8px;
+       
+    }
+
+.production__text2 {
+    width: 100px;
+        font-size: 8px;
+       
+    }
+
+
+
+}
+
+@media(max-width: 616px) {
+    .NameProduction {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 594px)  {
+
+    .BlockTeam {
+        width: 100%;
+        margin: 0;
+        margin: 10px;
+        margin-right: 30px;
+    }
+}   
+
+@media (max-width: 552px) {
+    .productionText {
+        width: 100%;
+        
+    }
+
+    .productionName {
+        width: 400px;
+    }
+}
+
+@media(max-width: 530px) {
+
+    .whiteTwo {
+        width: 100%;
+    }
+    .blockCausesAll {
+        width: 100%;
+        
+    }
+
+    .blockCauses {
+        font-size: 1px;
+        font-weight: 300;
+        width: 100%;
+    }
+}
+
